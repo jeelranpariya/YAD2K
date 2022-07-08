@@ -91,7 +91,7 @@ def draw_boxes(image, boxes, box_classes, class_names, scores=None):
     #font = ImageFont.load_default()
     #font='/content/drive/MyDrive/360_work/font/FiraMono-Medium.otf',
     font = ImageFont.truetype(
-        font = '/content/FiraMono-Medium.otf',
+        font = '/content/yad2k/font/FiraMono-Medium.otf',
         size=np.floor(3e-2 * image.size[1] + 0.5).astype('int32'))
     thickness = (image.size[0] + image.size[1]) // 300
 
